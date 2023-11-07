@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function CloseAccount() {
-  const baseUrl = 'http://localhost:8000/api/users/';
+  const baseUrl = 'https://jesus-frias-backbankingapplication.onrender.com/api/users/';
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
